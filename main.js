@@ -41,7 +41,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 
 
 app.config(function ($httpProvider, $resourceProvider, laddaProvider, $datepickerProvider) {
-    $httpProvider.defaults.headers.common['Authorization'] = 'Token 07e88996a67d5e5a351c9ad566e4db82564959d0';
+    $httpProvider.defaults.headers.common['Authorization'] = 'Token ';
     $resourceProvider.defaults.stripTrailingSlashes = false;
     laddaProvider.setOption({
         style: 'expand-right'
